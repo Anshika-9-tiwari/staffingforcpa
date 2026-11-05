@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@plugin "daisyui" {
+  themes: false;
+}
+
+@plugin "daisyui/theme" {
+  name: "staffing";
+  default: true;
+  prefersdark: true;
+  color-scheme: light;
+  --color-base-100: #ffffff;
+  --color-base-200: #f7f5f2;
+  --color-base-300: #e7e3de;
+  --color-base-content: #1b1c1e;
+  --color-primary: #bd2631;
+  --color-primary-content: #ffffff;
+  --color-secondary: #84202a;
+  --color-secondary-content: #ffffff;
+  --color-accent: #ebadb0;
+  --color-accent-content: #271416;
+  --color-neutral: #1b1c1e;
+  --color-neutral-content: #ffffff;
+  --color-info: #4082a8;
+  --color-success: #248d58;
+  --color-warning: #d89b31;
+  --color-error: #cf3742;
+  --radius-selector: 0.5rem;
+  --radius-field: 0.35rem;
+  --radius-box: 0.5rem;
+  --border: 1px;
+  --depth: 0;
+  --noise: 0;
+}
+
+:root {
+  --brand-red: #bd2631;
+  --brand-black: #1b1c1e;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  min-height: 100vh;
+}
